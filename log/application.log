@@ -1,24 +1,8 @@
-INFO 2020/06/13 13:24:48 init.go:57: Successfully established connection. Cache connection- 0
-INFO 2020/06/13 13:24:48 init.go:57: Successfully established connection. Cache connection- 1
-INFO 2020/06/13 13:24:48 init.go:57: Successfully established connection. Cache connection- 2
-INFO 2020/06/13 13:24:48 init.go:57: Successfully established connection. Cache connection- 3
-INFO 2020/06/13 13:24:48 init.go:32: Crypt key loaded successfully
-INFO 2020/06/13 13:24:48 init.go:58: Successfully connected to the database
-INFO 2020/06/13 13:24:48 init.go:26: Loaded the data of statusMessageMap.json successfully
-ERROR 2020/06/13 13:29:18 user.go:30: Required data fields in the request body is missing  Key: 'UserDetails.EmpID' Error:Field validation for 'EmpID' failed on the 'required' tag
-Key: 'UserDetails.FirstName' Error:Field validation for 'FirstName' failed on the 'required' tag
-Key: 'UserDetails.Role' Error:Field validation for 'Role' failed on the 'required' tag
-Key: 'UserDetails.Status' Error:Field validation for 'Status' failed on the 'required' tag
-ERROR 2020/06/13 13:30:41 user.go:30: Required data fields in the request body is missing  Key: 'UserDetails.EmpID' Error:Field validation for 'EmpID' failed on the 'required' tag
-Key: 'UserDetails.FirstName' Error:Field validation for 'FirstName' failed on the 'required' tag
-Key: 'UserDetails.Role' Error:Field validation for 'Role' failed on the 'required' tag
-ERROR 2020/06/13 13:32:09 user.go:30: Required data fields in the request body is missing  Key: 'UserDetails.EmpID' Error:Field validation for 'EmpID' failed on the 'required' tag
-Key: 'UserDetails.FirstName' Error:Field validation for 'FirstName' failed on the 'required' tag
-ERROR 2020/06/13 13:33:05 user.go:30: Required data fields in the request body is missing  Key: 'UserDetails.EmpID' Error:Field validation for 'EmpID' failed on the 'required' tag
-ERROR 2020/06/13 13:33:25 user.go:30: Required data fields in the request body is missing  Key: 'UserDetails.EmpID' Error:Field validation for 'EmpID' failed on the 'required' tag
-INFO 2020/06/13 13:34:10 user.go:30: Successfully created the user
-INFO 2020/06/13 13:34:10 user.go:48: Successfully created the user
-INFO 2020/06/13 13:34:24 session.go:24: No access token found for the uid
-INFO 2020/06/13 13:34:24 session.go:39: Successfully set the access token
-INFO 2020/06/13 13:34:24 session.go:57: No refresh token found for the uid
-INFO 2020/06/13 13:34:24 session.go:72: Successfully set the refresh token
+INFO 2020/06/14 10:35:40 init.go:57: Successfully established connection. Cache connection- 0
+INFO 2020/06/14 10:35:40 init.go:57: Successfully established connection. Cache connection- 1
+INFO 2020/06/14 10:35:40 init.go:57: Successfully established connection. Cache connection- 2
+INFO 2020/06/14 10:35:40 init.go:57: Successfully established connection. Cache connection- 3
+INFO 2020/06/14 10:35:40 init.go:32: Crypt key loaded successfully
+INFO 2020/06/14 10:35:40 init.go:58: Successfully connected to the database
+INFO 2020/06/14 10:35:40 init.go:26: Loaded the data of statusMessageMap.json successfully
+INFO 2020/06/14 10:35:48 todo.go:57: Successfully deleted the todo

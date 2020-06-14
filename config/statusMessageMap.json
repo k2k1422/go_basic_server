@@ -63,5 +63,10 @@
   "601" : "Data based on the provided filters",
   "602" : "Failed to encode the response",
 
-  "700":  "Hello world response sucessfully given"
+  "700":  "Hello world response sucessfully given",
+
+  "801": "Successfully create todo",
+  "802": "Failed create todo",
+  "803": "Successfully deleted",
+  "804": "Failed to delete"
 }

@@ -51,4 +51,12 @@ func ValidateSchema() {
 	// 		Logging.INFO.Println("ADL_TXN_DISCUSSION table created successfully")
 	// 	}
 	// }
+	// if !Connection.Table("sunpharma.TODO").HasTable(&DataModels.Todo{}) {
+	// 	if err := Connection.Table("sunpharma.TODO").AutoMigrate(&DataModels.Todo{}).Error; err != nil {
+	// 		Logging.ERROR.Println("Failed to create TODO table in the database")
+	// 		panic(err)
+	// 	} else {
+	// 		Logging.INFO.Println("TODO table created successfully")
+	// 	}
+	// }
 }
