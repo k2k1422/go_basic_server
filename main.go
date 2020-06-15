@@ -23,7 +23,7 @@ func main() {
 	helloWorldRouter.Use(Middleware.NoAuthLogging)
 	authRouter.Use(Middleware.NoAuthLogging)
 	userRouter.Use(Middleware.NoAuthLogging)
-	todoRouter.Use(Middleware.AuthLogging)
+	todoRouter.Use(Middleware.NoAuthLogging)
 
 	Helloworld.Route(helloWorldRouter)
 	Auth.Route(authRouter)

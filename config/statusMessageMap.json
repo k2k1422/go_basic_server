@@ -68,5 +68,7 @@
   "801": "Successfully create todo",
   "802": "Failed create todo",
   "803": "Successfully deleted",
-  "804": "Failed to delete"
+  "804": "Failed to delete",
+  "805": "Email Sent Successfully",
+  "805": "Failed to sent email"
 }

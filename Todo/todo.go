@@ -7,6 +7,7 @@ import (
 	"server/DataModels"
 	"server/Logging"
 	"server/Response"
+	"server/SMTP"
 
 	"github.com/google/uuid"
 )
@@ -65,5 +66,26 @@ func deleteTodo(w http.ResponseWriter, r *http.Request) {
 				Response.InternalServerError(w, r, "804")
 			}
 		}
+	}
+}
+
+func sendMail(w http.ResponseWriter, r *http.Request) {
+
+	var emailId []string
+
+	if err := json.NewDecoder(r.Body).Decode(&emailId); err != nil {
+		Logging.ERROR.Println("Could not read the request body. ", err)
+		Response.BadRequest(w, r, "100")
+	} else {
+		if SMTP.Send(emailId, "(Todo Assiged)",
+			SMTP.TodoSMTPTemplate(DataAccess.GetTodoList()),
+		) {
+			Logging.INFO.Println("Successfully sent email")
+			Response.Success(w, r, "805", "")
+		} else {
+			Logging.ERROR.Println("Failed to sent email")
+			Response.InternalServerError(w, r, "806")
+		}
+
 	}
 }

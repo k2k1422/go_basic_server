@@ -1,8 +1,9 @@
-INFO 2020/06/14 10:35:40 init.go:57: Successfully established connection. Cache connection- 0
-INFO 2020/06/14 10:35:40 init.go:57: Successfully established connection. Cache connection- 1
-INFO 2020/06/14 10:35:40 init.go:57: Successfully established connection. Cache connection- 2
-INFO 2020/06/14 10:35:40 init.go:57: Successfully established connection. Cache connection- 3
-INFO 2020/06/14 10:35:40 init.go:32: Crypt key loaded successfully
-INFO 2020/06/14 10:35:40 init.go:58: Successfully connected to the database
-INFO 2020/06/14 10:35:40 init.go:26: Loaded the data of statusMessageMap.json successfully
-INFO 2020/06/14 10:35:48 todo.go:57: Successfully deleted the todo
+INFO 2020/06/15 11:52:28 init.go:57: Successfully established connection. Cache connection- 0
+INFO 2020/06/15 11:52:28 init.go:57: Successfully established connection. Cache connection- 1
+INFO 2020/06/15 11:52:28 init.go:57: Successfully established connection. Cache connection- 2
+INFO 2020/06/15 11:52:28 init.go:57: Successfully established connection. Cache connection- 3
+INFO 2020/06/15 11:52:28 init.go:32: Crypt key loaded successfully
+INFO 2020/06/15 11:52:28 init.go:58: Successfully connected to the database
+INFO 2020/06/15 11:52:28 init.go:26: Loaded the data of statusMessageMap.json successfully
+INFO 2020/06/15 11:52:41 mail.go:45: SMTP success-  [kiran.kumar@aptusdatalabs.com]
+INFO 2020/06/15 11:52:41 todo.go:83: Successfully notified the selected user

@@ -1,3 +1,1 @@
-2020/06/14 10:35:48 main.go:868: sqlC:/Users/kiran/Desktop/projects/go/server/DataAccess/todo.go:3018.9995msSELECT * FROM "sunpharma"."TODO"  WHERE (id = $1)[f95e58e2-f144-45d4-b667-4c98b75c4d6e] 1
-2020/06/14 10:35:48 main.go:868: sqlC:/Users/kiran/Desktop/projects/go/server/DataAccess/todo.go:374msDELETE FROM "sunpharma"."TODO"  WHERE (id = $1)[f95e58e2-f144-45d4-b667-4c98b75c4d6e] 1
-2020/06/14 10:35:51 main.go:868: sqlC:/Users/kiran/Desktop/projects/go/server/DataAccess/todo.go:1014.0042msSELECT id, task, task_date FROM "sunpharma"."TODO"  [] 1
+2020/06/15 11:52:37 main.go:868: sqlC:/Users/kiran/Desktop/projects/go/server/DataAccess/todo.go:1017.9956msSELECT id, task, task_date FROM "sunpharma"."TODO"  [] 4
