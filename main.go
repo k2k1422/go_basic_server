@@ -4,6 +4,7 @@ import (
 	"net/http"
 	"server/Auth"
 	"server/Helloworld"
+	"server/Middleware"
 	"server/Todo"
 	"server/User"
 
@@ -18,6 +19,11 @@ func main() {
 	authRouter := serverMux.PathPrefix("/api/auth").Subrouter()
 	userRouter := serverMux.PathPrefix("/api/user").Subrouter()
 	todoRouter := serverMux.PathPrefix("/api/todo").Subrouter()
+
+	helloWorldRouter.Use(Middleware.NoAuthLogging)
+	authRouter.Use(Middleware.NoAuthLogging)
+	userRouter.Use(Middleware.NoAuthLogging)
+	todoRouter.Use(Middleware.AuthLogging)
 
 	Helloworld.Route(helloWorldRouter)
 	Auth.Route(authRouter)
