@@ -1,9 +1,12 @@
-INFO 2020/06/15 11:52:28 init.go:57: Successfully established connection. Cache connection- 0
-INFO 2020/06/15 11:52:28 init.go:57: Successfully established connection. Cache connection- 1
-INFO 2020/06/15 11:52:28 init.go:57: Successfully established connection. Cache connection- 2
-INFO 2020/06/15 11:52:28 init.go:57: Successfully established connection. Cache connection- 3
-INFO 2020/06/15 11:52:28 init.go:32: Crypt key loaded successfully
-INFO 2020/06/15 11:52:28 init.go:58: Successfully connected to the database
-INFO 2020/06/15 11:52:28 init.go:26: Loaded the data of statusMessageMap.json successfully
-INFO 2020/06/15 11:52:41 mail.go:45: SMTP success-  [kiran.kumar@aptusdatalabs.com]
-INFO 2020/06/15 11:52:41 todo.go:83: Successfully notified the selected user
+INFO 2020/06/15 13:32:36 init.go:57: Successfully established connection. Cache connection- 0
+INFO 2020/06/15 13:32:36 init.go:57: Successfully established connection. Cache connection- 1
+INFO 2020/06/15 13:32:36 init.go:57: Successfully established connection. Cache connection- 2
+INFO 2020/06/15 13:32:36 init.go:57: Successfully established connection. Cache connection- 3
+INFO 2020/06/15 13:32:36 init.go:32: Crypt key loaded successfully
+INFO 2020/06/15 13:32:36 init.go:58: Successfully connected to the database
+INFO 2020/06/15 13:32:36 init.go:26: Loaded the data of statusMessageMap.json successfully
+ERROR 2020/06/15 13:32:46 mail.go:41: SMTP error-  535 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials b5sm11654122pjz.34 - gsmtp [donkiranrao786@gmail.com]
+ERROR 2020/06/15 13:32:46 todo.go:86: Failed to sent email
+INFO 2020/06/15 13:35:22 mail.go:45: SMTP success-  [donkiranrao786@gmail.com]
+INFO 2020/06/15 13:35:22 todo.go:83: Successfully sent email

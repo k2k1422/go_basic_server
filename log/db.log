@@ -1,1 +1,2 @@
-2020/06/15 11:52:37 main.go:868: sqlC:/Users/kiran/Desktop/projects/go/server/DataAccess/todo.go:1017.9956msSELECT id, task, task_date FROM "sunpharma"."TODO"  [] 4
+2020/06/15 13:32:44 main.go:868: sqlC:/Users/kiran/Desktop/projects/go/server/DataAccess/todo.go:105.0803msSELECT id, task, task_date FROM "sunpharma"."TODO"  [] 4
+2020/06/15 13:35:18 main.go:868: sqlC:/Users/kiran/Desktop/projects/go/server/DataAccess/todo.go:101.2002msSELECT id, task, task_date FROM "sunpharma"."TODO"  [] 4
